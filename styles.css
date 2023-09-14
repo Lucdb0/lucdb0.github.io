@@ -5,29 +5,73 @@
   }
 
   body {
-    background-image: url("/images/darkwallpaper.jpg");
+    background-image: url("/images/black-abstract.jpg");
     background-size: cover;
   }
 
-  img {
-    gap: 20px;
-    border:3px solid white;
+  .images {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+  }
+
+  .text-box {
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 100px;
+  }
+
+  .text-box p {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .text-box h1 {
+    font-size: 150px;
+    line-height: 0px;
+  }
+
+  .text-box a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 1px solid white;
+  }
+
+  .text-box a:hover {
+    text-decoration: underline;
+  }
+
+  .titel1, .titel2, .titel3, .titel4 {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    gap: 6em;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: solid 1px  #ccc;
+    border-radius: 1px;
+    width: 50%;
   }
 
   nav ul {
+    font-size:17px;
+    color: white;
     list-style-type: none;
-    margin: -8px;
+    margin: 5px;
     padding: 0px;
+    margin-right: 50px;
     overflow: hidden;
-    background: linear-gradient(to right, rgb(58, 58, 58) 50%, rgb(255, 235, 52) );
+    /*background: linear-gradient(to right, rgb(58, 58, 58) 50%, rgb(255, 235, 52) ); */
   }
   
   nav li {
     float: left;
   }
 
-  .link-button {
-    -webkit-text-fill-color: black;
+  .nav-extra-styling {
+    -webkit-text-fill-color: white;
     float: right;
     text-size-adjust: 5;
   }
@@ -41,8 +85,7 @@
   }
   
   nav li a:hover {
-    /* border:3px solid white; */
-    background-color: #cfcfcf;
+    border:3px solid white;
   }
 
   nav ul li ul li {
@@ -55,11 +98,11 @@
     display: inline-block;
     width: auto;
     position: absolute;
-    background-color: #7c7c7c;
+    text-decoration: underline;
   }
 
   nav ul li a.activepage {
-    background-color:#7c7c7c;
+    text-decoration: underline;
   }
 
   table, th, td {
