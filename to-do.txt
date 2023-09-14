@@ -1,0 +1,9 @@
+1. Maak een drop down menu met
+handige sites (zie assignment specification)
+
+2. Maak een drop down menu voor blog posts
+
+3. Dashboard pagina afmaken
+
+
+klaar: vrijdag 15 sept

@@ -1,0 +1,67 @@
+  body {
+    background-color: black;
+    color: white;
+    font-family: Bahnschrift;
+  }
+
+  body {
+    background-image: url("/images/darkwallpaper.jpg");
+    background-size: cover;
+  }
+
+  img {
+    gap: 20px;
+    border:3px solid white;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0px;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(58, 58, 58) 50%, rgb(255, 235, 52) );
+  }
+  
+  nav li {
+    float: left;
+  }
+
+  .link-button {
+    -webkit-text-fill-color: black;
+    float: right;
+    text-size-adjust: 5;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    /* border:3px solid white; */
+    background-color: #cfcfcf;
+  }
+
+  nav ul li ul li {
+    display: none;
+    position: fixed;
+    width: auto;
+  }
+
+  nav li:hover ul li {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    background-color: #7c7c7c;
+  }
+
+  nav ul li a.activepage {
+    background-color:#7c7c7c;
+  }
+
+  table, th, td {
+    border:1px solid #cfcfcf;
+  }
