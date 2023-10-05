@@ -5,5 +5,7 @@ handige sites (zie assignment specification)
 
 3. Dashboard pagina afmaken
 
+You can easily scan the documents at the HZ using one of the printers in the building.
+You should have the scan sent to your email address as a .pdf document. This does require you to have an active HZ account.
 
 klaar: vrijdag 15 sept
